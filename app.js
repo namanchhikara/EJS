@@ -8,7 +8,6 @@ app.set('view engine', 'ejs');
 
 app.get("/", function(req, res){
     var today = new Date();
-    var day;
     var options = {
         weekday: "long",
         day: "numeric",
